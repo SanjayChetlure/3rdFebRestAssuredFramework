@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RequestResponseSuite">
+	<listeners>
+		<listener class-name="Reports.ExtentReportgeneration"/>
+	</listeners>
+
+  <test name="Test">
+    <classes>
+      <class name="Test_Module.ReqResTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

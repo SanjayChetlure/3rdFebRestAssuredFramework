@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="StudentsAPI">
+
+	<listeners>
+		<listener class-name="Reports.ExtentReportgeneration"/>
+	</listeners>
+
+  <test name="Test1">
+    <classes>
+      <class name="Test_Module.StudentsTest1"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
